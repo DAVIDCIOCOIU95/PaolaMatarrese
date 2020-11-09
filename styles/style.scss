@@ -1,0 +1,21 @@
+$base-red: #DA0000;
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+    font-weight: lighter;
+    color: black;
+
+    li {
+        padding-left: 40px;
+    }
+
+    button {
+        border-radius: 30px !important;
+        background-color: $base-red !important;
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
