@@ -10,6 +10,10 @@
   h1 {
     font-size: 48px !important;
   }
+  .dates-text {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
 }
 
 .btn-red {
@@ -31,7 +35,9 @@ body {
 }
 
 body h1,
-body h2, body h3, body h4 {
+body h2,
+body h3,
+body h4 {
   font-weight: 300;
   letter-spacing: 0.25em;
 }

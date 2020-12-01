@@ -1,18 +1,10 @@
 @import "./colors";
 @import "./responsive";
 @import "./buttons";
+@import "./typography";
 
 body {
-  font-family: "Quicksand", sans-serif;
-  h1,
-  h2, h3, h4 {
-    font-weight: 300;
-    
-    letter-spacing: 0.25em;
-  }
-  h1{
-    font-size: 70px;
-  }
+ @include typography();
 }
 
 nav {
