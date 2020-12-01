@@ -1,0 +1,11 @@
+// Media queries
+// Medium devices (tablets, 768px and up)
+@media (max-width: 991px) {
+    .header-title {
+      margin-top: 40px !important;
+      margin-bottom: 50px !important;
+    }
+    h1 {
+        font-size: 48px !important;
+    }
+  }

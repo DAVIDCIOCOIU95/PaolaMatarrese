@@ -1,20 +1,69 @@
+.red {
+  color: #da0000 !important;
+}
+
+@media (max-width: 991px) {
+  .header-title {
+    margin-top: 40px !important;
+    margin-bottom: 50px !important;
+  }
+  h1 {
+    font-size: 48px !important;
+  }
+}
+
+.btn-red {
+  color: white;
+  border-radius: 30px !important;
+  background-color: #da0000 !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  border: none;
+}
+
+.btn-red:hover {
+  background-color: #eb0202 !important;
+  color: white;
+}
+
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+body h1,
+body h2, body h3, body h4 {
+  font-weight: 300;
+  letter-spacing: 0.25em;
+}
+
+body h1 {
+  font-size: 70px;
 }
 
 nav {
-  font-weight: lighter;
+  font-weight: 300;
   color: black;
+  letter-spacing: 0.05em !important;
 }
 
 nav li {
   padding-left: 40px;
 }
 
-nav button {
-  border-radius: 30px !important;
-  background-color: #DA0000 !important;
-  padding-left: 16px !important;
-  padding-right: 16px !important;
+.row div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.events {
+  margin-top: 100px;
+}
+
+.events .card-text {
+  color: #7c7c7c;
+}
+
+.events .event {
+  margin: 0 !important;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,21 +1,47 @@
-$base-red: #DA0000;
+@import "./colors";
+@import "./responsive";
+@import "./buttons";
 
-body{
-    font-family: 'Quicksand', sans-serif;
+body {
+  font-family: "Quicksand", sans-serif;
+  h1,
+  h2, h3, h4 {
+    font-weight: 300;
+    
+    letter-spacing: 0.25em;
+  }
+  h1{
+    font-size: 70px;
+  }
 }
 
-nav{
-    font-weight: lighter;
-    color: black;
+nav {
+  font-weight: 300;
+  color: black;
+  letter-spacing: 0.05em !important;
 
-    li {
-        padding-left: 40px;
+  li {
+    padding-left: 40px;
+  }
+
+}
+
+
+.row {
+  div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.events {
+    margin-top: 100px;
+    .card-text {
+        color: rgb(124, 124, 124);
     }
 
-    button {
-        border-radius: 30px !important;
-        background-color: $base-red !important;
-        padding-left: 16px !important;
-        padding-right: 16px !important;
+    .event {
+        margin: 0 !important;
     }
 }
+
