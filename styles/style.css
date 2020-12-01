@@ -2,32 +2,6 @@
   color: #da0000 !important;
 }
 
-@media (max-width: 991px) {
-  .header-title {
-    margin-top: 40px !important;
-    margin-bottom: 50px !important;
-  }
-  h1 {
-    font-size: 48px !important;
-  }
-  .dates-text {
-    margin-top: 5px !important;
-    margin-bottom: 5px !important;
-  }
-  .events {
-    margin-top: 50px !important;
-  }
-}
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 35px !important;
-  }
-  .btn-event {
-    margin-top: 10px;
-  }
-}
-
 .btn-red {
   color: white;
   border-radius: 30px !important;
@@ -83,5 +57,35 @@ nav li {
 
 .events .event {
   margin: 0 !important;
+}
+
+@media (max-width: 991px) {
+  .header-title {
+    margin-top: 40px !important;
+    margin-bottom: 50px !important;
+  }
+  h1 {
+    font-size: 48px !important;
+  }
+  .dates-text {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .events {
+    margin-top: 50px;
+  }
+  .events-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 35px !important;
+  }
+  .btn-event {
+    margin-top: 10px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

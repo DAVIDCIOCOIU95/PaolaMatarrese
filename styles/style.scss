@@ -1,5 +1,4 @@
 @import "./colors";
-@import "./responsive";
 @import "./buttons";
 @import "./typography";
 
@@ -15,9 +14,7 @@ nav {
   li {
     padding-left: 40px;
   }
-
 }
-
 
 .row {
   div {
@@ -36,4 +33,6 @@ nav {
         margin: 0 !important;
     }
 }
+
+@import "./responsive";
 
