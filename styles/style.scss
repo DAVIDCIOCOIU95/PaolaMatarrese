@@ -43,6 +43,7 @@ nav {
 }
 
 .bio {
+  margin-top: 100px;
   .bio-text-section {
     padding-left: 30px!important;
     padding-right: 30px!important;
@@ -53,6 +54,17 @@ nav {
   }
   .btn {
     margin-top: 15px;
+  }
+}
+
+.footer {
+  margin-top: 100px;
+  .footer-logo{
+    width: 200px;
+  }
+  
+  .container {
+    margin-top: 50px;
   }
 }
 
