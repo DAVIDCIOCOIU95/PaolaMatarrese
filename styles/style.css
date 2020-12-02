@@ -16,6 +16,23 @@
   color: white;
 }
 
+.btn-contact {
+  color: #000;
+  padding: 10px !important;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.btn-contact:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.btn-contact:hover svg {
+  fill: #fff;
+}
+
 body {
   font-family: "Quicksand", sans-serif;
 }
