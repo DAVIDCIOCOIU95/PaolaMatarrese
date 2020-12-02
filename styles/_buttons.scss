@@ -12,16 +12,17 @@
 }
 
 .btn-contact {
-  color: $black;
+  color: $pageBackground;
   padding: 10px!important;
-  background-color: $pageBackground;
-  border: 2px solid $black;
+  background-color: $black;
+  border: 2px solid $pageBackground;
   border-radius: 50%;
   &:hover {
-    color: $pageBackground;
-    background-color: $black;
+    color: $black;
+    background-color: $pageBackground;
+    border-color: $black;
     svg {
-      fill: $pageBackground;
+      fill: $black;
     }
   }
 }

@@ -63,8 +63,19 @@ nav {
     width: 200px;
   }
   
-  .container {
+  .container-footer-links {
     margin-top: 50px;
+  }
+
+  .container-footer-socials { //or use a custom class like .custom-container
+    max-width: 500px;
+    margin-top: 25px;
+  }
+
+  .copyright {
+    font-size: small;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 }
 
