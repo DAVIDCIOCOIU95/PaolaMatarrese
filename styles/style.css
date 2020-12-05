@@ -89,6 +89,10 @@ nav li a {
   margin-bottom: 20px;
 }
 
+.img-grid {
+  padding: 10px;
+}
+
 .bio {
   margin-top: 100px;
 }
