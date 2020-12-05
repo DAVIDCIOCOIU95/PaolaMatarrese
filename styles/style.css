@@ -12,26 +12,26 @@
 }
 
 .btn-red:hover {
-  background-color: #eb0202 !important;
+  background-color: #ff6060 !important;
   color: white;
 }
 
 .btn-contact {
   color: #fff;
   padding: 10px !important;
-  background-color: #000;
+  background-color: #da0000;
   border: 2px solid #fff;
   border-radius: 50%;
 }
 
 .btn-contact:hover {
-  color: #000;
+  color: #da0000;
   background-color: #fff;
-  border-color: #000;
+  border-color: #da0000;
 }
 
 .btn-contact:hover svg {
-  fill: #000;
+  fill: #da0000;
 }
 
 body {
@@ -114,19 +114,34 @@ nav li a {
   width: 200px;
 }
 
+.footer .footer-logo:hover {
+  color: black;
+}
+
 .footer .container-footer-links {
-  margin-top: 50px;
+  margin-top: 70px;
+  max-width: 700px;
 }
 
 .footer .container-footer-socials {
   max-width: 500px;
-  margin-top: 25px;
+  margin-top: 70px;
 }
 
 .footer .copyright {
   font-size: small;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 10px;
+}
+
+.footer .footer-link {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.footer .footer-link:hover {
+  color: #da0000;
 }
 
 @media (max-width: 991px) {
@@ -153,6 +168,9 @@ nav li a {
   }
   .header-title {
     display: none;
+  }
+  .col-lg-3 {
+    margin-top: 20px;
   }
 }
 

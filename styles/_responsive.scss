@@ -1,4 +1,6 @@
 // Media queries
+
+// Tablet
 @media (max-width: 991px) {
   .header-title {
     margin-top: 40px !important;
@@ -29,6 +31,10 @@
 
   .header-title {
     display: none;
+  }
+
+  .col-lg-3{
+    margin-top: 20px;
   }
 }
 
