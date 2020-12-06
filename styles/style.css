@@ -46,6 +46,10 @@ body h4 {
   letter-spacing: 0.1em;
 }
 
+body h2 {
+  font-weight: 500;
+}
+
 body h3 {
   font-weight: 500;
 }
@@ -71,6 +75,10 @@ nav li a {
 .row div {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+.work-carousel {
+  display: none;
 }
 
 .events {
@@ -184,6 +192,14 @@ nav li a {
   }
   .btn-event {
     margin-top: 10px;
+  }
+  .work-image-grid {
+    display: none;
+  }
+  .work-carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=style.css.map */

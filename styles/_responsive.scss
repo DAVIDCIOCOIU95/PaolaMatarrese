@@ -38,11 +38,20 @@
   }
 }
 
+// Mobile
 @media (max-width: 576px) {
   h1 {
     font-size: 35px !important;
   }
   .btn-event {
     margin-top: 10px;
+  }
+
+  .work-image-grid {
+    display: none;
+  }
+
+  .work-carousel {
+    display: flex;
   }
 }
