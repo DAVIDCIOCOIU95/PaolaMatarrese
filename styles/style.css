@@ -190,6 +190,17 @@ nav li a {
   .footer .hr-2 {
     display: none;
   }
+  .work-image-grid {
+    display: none;
+  }
+  .work-carousel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .work-container {
+    padding: 10px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -198,14 +209,6 @@ nav li a {
   }
   .btn-event {
     margin-top: 10px;
-  }
-  .work-image-grid {
-    display: none;
-  }
-  .work-carousel {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 /*# sourceMappingURL=style.css.map */

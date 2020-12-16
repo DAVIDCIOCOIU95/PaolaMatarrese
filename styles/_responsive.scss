@@ -1,6 +1,6 @@
 // Media queries
 
-// Tablet
+// Tablet - Mobile
 @media (max-width: 991px) {
   .header-title {
     margin-top: 40px !important;
@@ -45,6 +45,18 @@
       display: none;
     }
   }
+
+  .work-image-grid {
+    display: none;
+  }
+
+  .work-carousel {
+    display: flex;
+  }
+
+  .work-container {
+    padding: 10px;
+  }
 }
 
 // Mobile
@@ -56,11 +68,5 @@
     margin-top: 10px;
   }
 
-  .work-image-grid {
-    display: none;
-  }
-
-  .work-carousel {
-    display: flex;
-  }
+  
 }
