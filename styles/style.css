@@ -81,6 +81,11 @@ nav li a {
   display: none;
 }
 
+.work-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .events {
   margin-top: 100px;
 }
@@ -198,9 +203,6 @@ nav li a {
     display: -ms-flexbox;
     display: flex;
   }
-  .work-container {
-    padding: 10px;
-  }
 }
 
 @media (max-width: 576px) {
@@ -209,6 +211,9 @@ nav li a {
   }
   .btn-event {
     margin-top: 10px;
+  }
+  .work-container {
+    padding: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
