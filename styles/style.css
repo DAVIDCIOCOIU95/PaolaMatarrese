@@ -203,6 +203,9 @@ body a, body a:hover, body a:focus, body a:active {
     padding-top: 30px !important;
     text-align: center;
   }
+  .bio-title {
+    margin-top: 20px;
+  }
   .header-title {
     display: none;
   }
