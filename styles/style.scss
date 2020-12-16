@@ -1,92 +1,84 @@
 @import "./colors";
 @import "./buttons";
 @import "./typography";
+@import "./nav";
 
 body {
- @include typography();
-}
+  @include typography();
 
-nav {
-  font-weight: 300;
-  color: black;
-  letter-spacing: 0.05em !important;
-
-  li {
-    padding-left: 40px;
-    a{
-      font-weight: 500;
+  .row {
+    div {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
   }
-}
 
-.row {
-  div {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
+  a, a:hover, a:focus, a:active {
+    color: inherit;
+    text-decoration: none;
 }
-
-// Work Section
-.work-carousel {
-  display: none;
-}
-
-.work-container {
-   padding-top: 20px;
-   padding-bottom: 20px;
 }
 
 
+
+// Events Section
 .events {
-    margin-top: 100px;
-    .card-text {
-        color: rgb(124, 124, 124);
-    }
+  margin-top: 100px;
 
-    .event {
-        margin: 0 !important;
-    }
+  .card-text {
+    color: rgb(124, 124, 124);
+  }
 
-    .events-title {
-      margin-bottom: 20px;
-    }
+  .event {
+    margin: 0 !important;
+  }
+
+  .events-title {
+    margin-bottom: 20px;
+  }
 }
 
 .img-grid {
   padding: 10px;
 }
 
+// Bio Section
 .bio {
   margin-top: 100px;
+
   .bio-text-section {
-    padding-left: 30px!important;
-    padding-right: 30px!important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 
   p {
     margin-top: 20px;
   }
+
   .btn {
     margin-top: 15px;
   }
 }
 
+// Footer Section
 .footer {
   margin-top: 100px;
-  .footer-logo{
+
+  .footer-logo {
     width: 200px;
 
     &:hover {
       color: black;
     }
   }
-  
+
   .container-footer-links {
     margin-top: 70px;
     max-width: 700px;
   }
 
-  .container-footer-socials { //or use a custom class like .custom-container
+  .container-footer-socials {
+    //or use a custom class like .custom-container
     max-width: 500px;
     margin-top: 70px;
   }
@@ -97,7 +89,7 @@ nav {
     margin-bottom: 10px;
   }
 
-  .footer-link{
+  .footer-link {
     text-decoration: none;
     color: $black;
     cursor: pointer;
@@ -108,5 +100,30 @@ nav {
   }
 }
 
-@import "./responsive";
+// Work Page
+.work-carousel {
+  display: none;
+}
 
+.work-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.work-description {
+  h2 {
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-family: 'Qwigley', cursive;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+}
+
+.work-video {
+  margin-top: 30px;
+}
+
+@import "./responsive";
