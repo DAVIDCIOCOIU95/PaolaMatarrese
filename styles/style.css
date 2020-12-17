@@ -82,6 +82,10 @@ body a, body a:hover, body a:focus, body a:active {
   text-decoration: none;
 }
 
+body video {
+  background-color: black;
+}
+
 .events {
   margin-top: 100px;
 }
