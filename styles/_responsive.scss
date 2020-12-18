@@ -42,11 +42,21 @@
   }
 
   .footer {
+    margin-top: 50px;
     hr {
       margin-bottom: 30px;
+      width: 70%;
     }
     .hr-2 {
       display: none;
+    }
+
+    .container-footer-links {
+      margin-top: 20px;
+    }
+
+    .container-footer-socials {
+      margin-top: 45px;
     }
   }
 
